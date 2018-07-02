@@ -160,6 +160,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //adminlte https://github.com/jeroennoten/Laravel-AdminLTE
+        JeroenNoten\LaravelAdminLte\ServiceProvider::class,
+
+        //simplegrid https://github.com/rafwell/laravel-simplegrid
+        Rafwell\Simplegrid\SimplegridServiceProvider::class,
+
     ],
 
     /*
